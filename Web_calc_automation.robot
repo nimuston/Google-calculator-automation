@@ -2,7 +2,7 @@
 Documentation    Simple example using SeleniumLibrary - Test suite
 Resource    calc_resources.robot
 Test Setup  Set Selenium Speed  0.5
-
+Test Teardown  run keyword if  '${TEST_STATUS}' == 'FAIL'  Recovery from test case failure
 
 *** Test Cases ***
 TC001 - Open WebBrowser and google
