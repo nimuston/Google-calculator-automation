@@ -7,9 +7,7 @@ Test Teardown  run keyword if  '${TEST_STATUS}' == 'FAIL'  Recovery from test ca
 *** Test Cases ***
 TC001 - Open WebBrowser and google
     open browser to google
-
-TC002 - Agree google policy
-    click element  //*[@id="zV9nZe"]/div
+    Accept google agreement policy
 
 TC002 - Search for calculator
     find search field and using to search calculator
@@ -19,11 +17,20 @@ TC003 - Simple calculation like 1 + 2 = 3
     click calculator button +
     click calculator button 2
     click calculator button =
-    ${result} =    Get Text  //*[@id="cwos"]
-    Should Be Equal    ${result}    3
+    Verify calculated total  3
 
 TC004 - Clear calculator
     clear calculator
 
-TC0xx - Close browser
+TC005 - Second simple calcuation 8 - 2 = 6
+    click calculator button 8
+    Click calculator button -
+    Click calculator button 2
+    Click calculator button =
+    Verify calculated total  6
+
+TC006 - Clear calculator
+    Clear calculator
+
+TC007 - Close browser
     close all browsers
