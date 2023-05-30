@@ -36,6 +36,20 @@ TC006 - Third simple calculation 9 - 5 = 4
     Click calculator button =
     Verify calculated total  4
 
+TC007 - Third simple calculation 9 * 5 = 45
+    click calculator button 9
+    Click calculator button *
+    Click calculator button 5
+    Click calculator button =
+    Verify calculated total  45
+	
+TC008 - Third simple calculation 9 / 3 = 3
+    click calculator button 9
+    Click calculator button /
+    Click calculator button 3
+    Click calculator button =
+    Verify calculated total  3
+
 TC007 - Clear calculator
     Clear calculator
 
