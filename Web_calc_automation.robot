@@ -29,8 +29,15 @@ TC005 - Second simple calcuation 8 - 2 = 6
     Click calculator button =
     Verify calculated total  6
 
-TC006 - Clear calculator
+TC006 - Third simple calcuation 9 - 5 = 4
+    click calculator button 9
+    Click calculator button -
+    Click calculator button 5
+    Click calculator button =
+    Verify calculated total  4
+
+TC007 - Clear calculator
     Clear calculator
 
-TC007 - Close browser
+TC008 - Close browser
     close all browsers
