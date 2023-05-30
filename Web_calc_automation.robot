@@ -22,14 +22,14 @@ TC003 - Simple calculation like 1 + 2 = 3
 TC004 - Clear calculator
     clear calculator
 
-TC005 - Second simple calcuation 8 - 2 = 6
+TC005 - Second simple calculation 8 - 2 = 6
     click calculator button 8
     Click calculator button -
     Click calculator button 2
     Click calculator button =
     Verify calculated total  6
 
-TC006 - Third simple calcuation 9 - 5 = 4
+TC006 - Third simple calculation 9 - 5 = 4
     click calculator button 9
     Click calculator button -
     Click calculator button 5
