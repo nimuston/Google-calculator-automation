@@ -11,9 +11,12 @@ Open browser to google
     open browser  ${url}    ${browser}
     title should be  Google
 
-Find search field and using to search calculator
+Find search field and use to search calculator
     input text  name:q  Calculator
     click element  name:btnK
+
+Click calculator button 0
+    click element  //*[@id="rso"]/div[1]/div/div/div/div/div[1]/div/div/div[3]/div/table[2]/tbody/tr[5]/td[1]/div/div
 
 Click calculator button 1
 	click element  //*[@id="rso"]/div[1]/div/div/div/div[1]/div/div/div[3]/div/table[2]/tbody/tr[4]/td[1]/div/div
