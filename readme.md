@@ -7,5 +7,5 @@ Copy all files to same folder, execute command
 "robot Web_calc_automation.robot"
 
 Prerequisites
-- Robot Framework 3.1.2
-- SeleniumLibrary 3.141.0
+- Robot Framework 5.0
+- SeleniumLibrary 6.0.0
