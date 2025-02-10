@@ -1,4 +1,4 @@
-## Google calculator automation example
+## Google calculator automation
 
 Small example for Google calculator automation, using Robot Framework and SeleniumLibrary
 
